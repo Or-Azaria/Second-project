@@ -1,0 +1,216 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+/* nav bar */
+nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .nav-links {
+  display: flex;
+  height: 70px;
+  width: 400px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav .nav-links a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+nav .nav-links a:nth-child(3) {
+  color: rgb(45, 83, 189);
+}
+nav .nav-links a:nth-child(5) {
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+}
+nav .nav-links a:nth-child(5):hover {
+  background-color: rgb(45, 83, 189);
+}
+/* // image top // */
+header {
+  height: 600px;
+  background-image: url(./assets/greenscreen.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* our courses top title section */
+.top-courses-title {
+  height: 300px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+.top-courses-title h1 {
+  text-decoration: underline;
+}
+/* end of header */
+
+/* start our courses */
+
+.our-courses-container {
+  margin-left: 535px;
+}
+
+.our-courses-container h4 {
+  font-size: 67px;
+  width: 410px;
+  height: 153px;
+}
+
+/* //box container// */
+.container-box {
+  display: flex;
+  justify-content: space-evenly;
+  height: 700px;
+  width: 1435px;
+}
+.box-mainA {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 700px;
+}
+.box-mainB {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 700px;
+}
+.box-mainC {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 700px;
+}
+/* /// buttons for box A,B and C /// */
+
+.box-mainA .buttonA button {
+  text-align: center;
+  background-color: rgb(8, 105, 170);
+  color: white;
+  font-size: 40px;
+}
+.box-mainB .buttonB button {
+  text-align: center;
+  background-color: white;
+  font-size: 40px;
+}
+.box-mainC .buttonC button {
+  text-align: center;
+  background-color: white;
+  font-size: 40px;
+}
+/* hover */
+.box-mainB .buttonB button:hover {
+  background-color: rgb(8, 105, 170);
+}
+.box-mainC .buttonC button:hover {
+  background-color: rgb(8, 105, 170);
+}
+/* END HOVER BUTTONS */
+
+/* start of footer */
+
+/* grey shirt guy section */
+.grey-shirt-guy-container {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.grey-shirt-guy-container .greyman {
+  width: 70%;
+  margin-left: 20px;
+  display: flex;
+}
+.text-grey h3 {
+  font-size: 30px;
+  color: rgb(36, 82, 209);
+}
+.text-grey ul li {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+.labels-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.labels-container .grey-shirt-button button {
+  color: white;
+  background-color: rgb(32, 137, 202);
+  height: 40px;
+  width: 400px;
+  margin-left: 40px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+/* end of grey shirt guy */
+
+/*  end of last-footer  */
+.container-of-last-footer {
+  width: 1400px;
+  height: 500px;
+  display: flex;
+  align-content: center;
+}
+.container-of-last-footer {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-end {
+  margin-top: 30px;
+  height: 100%;
+  width: 85%;
+  display: flex;
+}
+
+.box {
+  height: 100%;
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box p:nth-child(3) {
+  margin-bottom: 20px;
+}
+/* footer icons */
+.box .boxC-icons {
+  display: flex;
+  height: 70px;
+  font-size: 30px;
+}
+.box .boxC-icons .fa-instagram {
+  margin-left: 10px;
+}
+.box .boxC-icons .fa-linkedin-in {
+  margin-left: 20px;
+}
+.copyright-container {
+  height: 70px;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 200px;
+}

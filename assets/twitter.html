@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>twitter</title>
+  <link rel="stylesheet" href="./twitter_files/style.css"></head>
+  <body cz-shortcut-listen="true" data-new-gr-c-s-check-loaded="14.1052.0" data-gr-ext-installed="">
+    <header>
+      <nav class="nav-container">
+        <ul>
+          <li>
+            <img width="20px" height="20px" src="./twitter_files/home.svg" alt="home">
+            Home
+          </li>
+          <li>
+            <img width="20px" height="20px" src="./twitter_files/notification.svg" alt="notification">
+            notification
+          </li>
+
+          <li>
+            <img width="20px" height="20px" src="./twitter_files/message.svg" alt="messages">
+            messages
+          </li>
+        </ul>
+        <div class="logo"></div>
+        <img width="30px" height="30px" src="./twitter_files/logo.svg" alt="logo">
+
+        <div class="right-nav">
+          <input type="text" placeholder="  search on Twitter">
+          <img class="search-icon" width="20px" height="20px" src="./twitter_files/search.svg" alt="search">
+          <img class="side-top-image" width="40px" height="40px" src="./twitter_files/avatar.png" alt="avatar">
+          <div class="button-tweeter">
+            <button>Tweet</button>
+          </div>
+        </div>
+      </nav>
+      <!-- start of background  -->
+    </header>
+    <div class="blue-background">
+      <h1>Twitter Banner</h1>
+    </div>
+    <div class="info-bar">
+      <img class="alpaka-image" width="150px" height="150px" src="./twitter_files/avatar.png" alt="alpaka">
+      <div class="status-info">
+        <div class="left">
+          <p>Followings</p>
+          500
+        </div>
+        <div class="center">
+          <p>Followes</p>
+          1400
+        </div>
+        <div class="right">
+          <p>Favorites</p>
+          100
+        </div>
+      </div>
+      <div class="follow-right-side">
+        <button class="follow-B">Follow</button>
+        <img src="./twitter_files/more.svg" alt="more">
+      </div>
+    </div>
+    <!-- start main -->
+    <main class="main-container">
+      <div class="tweets-bar">
+
+      </div>
+      <div class="left-posts">
+          
+      </div>
+      <div class="right-posts">
+
+      </div>
+    
+    
+    
+    
+    
+    
+    </main>
+  
+
+
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

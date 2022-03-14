@@ -1,0 +1,369 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+/* start header */
+.header-container {
+  height: 900px;
+  width: 1435px;
+  border: 2px solid black;
+  background-image: url(./assets/pexels-soumil-kumar-735911-scaled.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/** // // starting nav bar // //  **/
+.header-container .nav-container {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
+}
+.header-container .nav-container .ul-nav-container ul {
+  display: flex;
+  width: 700px;
+  height: 100px;
+  font-size: 20px;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.header-container .nav-container .ul-nav-container ul li a {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+/* /////// div for side logo, left side of nav bar */
+.header-container .nav-container .image-left {
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+.header-container .nav-container .ul-nav-container ul li:nth-child(1) a {
+  color: lightskyblue;
+}
+.header-container .nav-container .ul-nav-container ul li:nth-child(5) a {
+  background-color: aliceblue;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.header-container .nav-container .ul-nav-container ul li:nth-child(5) a:hover {
+  background-color: rgb(101, 143, 223);
+}
+/* end of nav bar */
+
+/* // // start menu-top// // */
+.menu-top {
+  font-size: 40px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  height: 70%;
+}
+.menu-top .first-line {
+  height: 50%;
+  display: flex;
+  align-content: flex-end;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.menu-button {
+  border-radius: 10px;
+  margin-left: 510px;
+  width: 452px;
+  color: white;
+  font-size: 20px;
+  height: 70px;
+  background-color: rgb(8, 105, 170);
+}
+/* //// end header//// */
+
+/* starting main */
+.about-us {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 600px;
+  margin-left: 220px;
+  align-items: center;
+}
+
+.about-us .para {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+/* //// end of about us //// */
+
+/* start our courses */
+
+.our-courses-container {
+  margin-left: 535px;
+}
+
+.our-courses-container h4 {
+  font-size: 67px;
+  width: 410px;
+  height: 153px;
+}
+
+/* //box container// */
+.container-box {
+  display: flex;
+  justify-content: space-evenly;
+  height: 700px;
+  width: 1435px;
+}
+.box-mainA {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 700px;
+}
+.box-mainB {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 700px;
+}
+.box-mainC {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 700px;
+}
+/* /// buttons for box A,B and C /// */
+
+.box-mainA .buttonA button {
+  text-align: center;
+  background-color: rgb(8, 105, 170);
+  color: white;
+  font-size: 40px;
+}
+.box-mainB .buttonB button {
+  text-align: center;
+  background-color: white;
+  font-size: 40px;
+}
+.box-mainC .buttonC button {
+  text-align: center;
+  background-color: white;
+  font-size: 40px;
+}
+/* hover */
+.box-mainB .buttonB button:hover {
+  background-color: rgb(8, 105, 170);
+}
+.box-mainC .buttonC button:hover {
+  background-color: rgb(8, 105, 170);
+}
+/* END HOVER BUTTONS */
+
+/* ///start of our students section/// */
+.our-students-title {
+  width: 1450px;
+  height: 170px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+}
+.logos {
+  text-align: center;
+  padding: 20px;
+}
+
+/* start of pro-suppurt-container */
+.pro-suppurt-container {
+  display: flex;
+  justify-content: space-evenly;
+  height: 600px;
+  width: 1400px;
+  margin-top: 100px;
+}
+
+.headphon-image {
+  height: 600px;
+  padding-top: 50px;
+  width: 500px;
+  text-align: center;
+}
+.main-right-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.headphon-right-text {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 500px;
+}
+.headphon-right-text h1 {
+  font-size: 50px;
+}
+.headphon-right-text h4 {
+  margin-top: 40px;
+}
+.headphon-right-text P {
+  font-size: 15px;
+  margin-top: 10px;
+  height: 100px;
+}
+.icons-3-section {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+/* // start of why you should study // */
+.why-study-title {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 1400px;
+  height: 200px;
+  font-size: 30px;
+}
+/* // start of 4 title split // */
+.title-split-container {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+.title-split {
+  display: flex;
+
+  align-content: space-around;
+  width: 80%;
+  height: 230px;
+}
+/* splitA */
+.title-split .splitA {
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+}
+.splitA .splitA-a {
+  display: flex;
+}
+.splitA .splitA-a .splitA-ab {
+  display: flex;
+  flex-direction: column;
+}
+
+/* splitB */
+.title-split .splitB {
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+}
+.splitB .splitB-a {
+  display: flex;
+}
+.splitB .splitB-a .splitB-ab {
+  display: flex;
+  flex-direction: column;
+}
+/* start of footer */
+
+/* grey shirt guy section */
+.grey-shirt-guy-container {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.grey-shirt-guy-container .greyman {
+  width: 70%;
+  margin-left: 20px;
+  display: flex;
+}
+.text-grey h3 {
+  font-size: 30px;
+  color: rgb(36, 82, 209);
+}
+.text-grey ul li {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+.labels-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.labels-container .grey-shirt-button button {
+  color: white;
+  background-color: rgb(32, 137, 202);
+  height: 40px;
+  width: 400px;
+  margin-left: 40px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+/* end of grey shirt guy */
+
+/*  end of last-footer  */
+.container-of-last-footer {
+  width: 1400px;
+  height: 500px;
+  display: flex;
+  align-content: center;
+}
+.container-of-last-footer {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-end {
+  margin-top: 30px;
+  height: 100%;
+  width: 85%;
+  display: flex;
+}
+
+.box {
+  height: 100%;
+  width: 33.3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box p:nth-child(3) {
+  margin-bottom: 20px;
+}
+/* footer icons */
+.box .boxC-icons{
+  display: flex;
+  height: 70px;
+  font-size: 30px;
+}
+.box .boxC-icons .fa-instagram{
+margin-left: 10px;
+}
+.box .boxC-icons .fa-linkedin-in{
+  margin-left: 20px;
+}
+.copyright-container{
+  height: 70px;
+  display: flex;
+  margin-left: 20px;
+  margin-top: 200px;
+}
