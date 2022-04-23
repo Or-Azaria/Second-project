@@ -1,0 +1,230 @@
+.navBar {
+  z-index: 3;
+  height: 70px;
+}
+
+.navBar .container-navBar {
+  position: fixed;
+  height: 100px;
+  background-color: white;
+}
+
+.navBar .container-navBar .button-for-nav {
+  border-radius: 20px;
+  background: #69bfda;
+  background: -webkit-gradient(linear, left top, right top, from(#69bfda), color-stop(0%, #4fd94c), color-stop(94%, #44bad1));
+  background: linear-gradient(90deg, #69bfda 0%, #4fd94c 0%, #44bad1 94%);
+}
+
+header {
+  height: 645px;
+}
+
+header .container {
+  height: 617px;
+}
+
+header .container .row {
+  height: 723px;
+}
+
+header .container .row .leftSide-para {
+  margin-top: 200px;
+  height: 300px;
+}
+
+header .container .row .leftSide-para .button-for-left-para {
+  border-radius: 20px;
+  background: #69bfda;
+  background: -webkit-gradient(linear, left top, right top, from(#69bfda), color-stop(0%, #4fd94c), color-stop(94%, #44bad1));
+  background: linear-gradient(90deg, #69bfda 0%, #4fd94c 0%, #44bad1 94%);
+}
+
+header .container .row .rightSide-para {
+  height: 700px;
+}
+
+header .container .row .rightSide-para .backImage {
+  z-index: 1;
+  position: absolute;
+}
+
+header .container .row .rightSide-para .fourPhones {
+  z-index: 2;
+  position: relative;
+  bottom: 700px;
+}
+
+main {
+  background-color: #fafafa;
+}
+
+main div.four_easybank_cards {
+  gap: 5px;
+  margin-top: 50px;
+  height: 250px;
+}
+
+main .articles_title {
+  height: 115px;
+  height: 115px;
+  margin-top: 90px;
+}
+
+main .container-fluid .row {
+  height: 500px;
+}
+
+main .container-fluid .row div.four_images-unit {
+  width: 300px;
+}
+
+footer div.footer_container {
+  background-color: #2d314d;
+  height: 300px;
+}
+
+footer div.footer_container .row {
+  height: 300px;
+}
+
+footer div.footer_container .row .logo_footer {
+  height: 100px;
+}
+
+footer div.footer_container .row p {
+  color: whitesmoke;
+}
+
+footer div.footer_container .row .button_footer {
+  height: 100px;
+  text-align: start;
+}
+
+footer div.footer_container .row .button_footer button {
+  border: 0px;
+  width: 150px;
+  color: whitesmoke;
+  background: #69bfda;
+  background: -webkit-gradient(linear, left top, right top, from(#69bfda), color-stop(0%, #4fd94c), color-stop(94%, #44bad1));
+  background: linear-gradient(90deg, #69bfda 0%, #4fd94c 0%, #44bad1 94%);
+}
+
+@media screen and (max-width: 414px) {
+  header {
+    height: 900px;
+  }
+  header .container .upper_para {
+    width: 380px;
+    position: relative;
+    right: 6px;
+  }
+  header .container .upper_para img:nth-child(1) {
+    position: absolute;
+    width: 413px;
+    right: -17px;
+  }
+  header .container .upper_para img:nth-child(2) {
+    height: 434px;
+    width: 380px;
+    position: relative;
+  }
+  header .container .bottom_para {
+    text-align: center;
+  }
+  header .container .bottom_para .bottom-phone-para button.button-for-left-phone-para {
+    border-radius: 20px;
+    background: #69bfda;
+    background: -webkit-gradient(linear, left top, right top, from(#69bfda), color-stop(0%, #4fd94c), color-stop(94%, #44bad1));
+    background: linear-gradient(90deg, #69bfda 0%, #4fd94c 0%, #44bad1 94%);
+  }
+  main {
+    height: 3200px;
+  }
+  main .why_choose_title {
+    text-align: center;
+  }
+  main .why_choose_title p {
+    margin-left: 25px;
+  }
+  main div.four_easybank_cards {
+    height: 1260px;
+    text-align: center;
+  }
+  main div.four_easybank_cards .cards_unit {
+    height: 300px;
+  }
+  main .articles_title {
+    height: 115px;
+  }
+  main .container_items_section_one {
+    height: 1530px !important;
+  }
+  main .container_items_section_one .container__items_section_two {
+    height: 1530px;
+  }
+  footer {
+    height: 700px;
+  }
+  footer div.footer_container {
+    height: 700px;
+  }
+  footer div.footer_container div.row {
+    height: 700px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer div.footer_container div.row .logo_footer {
+    height: 120px;
+  }
+  footer div.footer_container div.row .logo_footer .footer_icons {
+    width: 150px;
+  }
+  footer div.footer_container div.row .about_footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 120px;
+  }
+  footer div.footer_container div.row .careers_footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    height: 120px;
+  }
+  footer div.footer_container div.row .button_footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 270px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer div.footer_container div.row .button_footer button {
+    background: #69bfda;
+    background: -webkit-gradient(linear, left top, right top, from(#69bfda), color-stop(0%, #4fd94c), color-stop(94%, #44bad1));
+    background: linear-gradient(90deg, #69bfda 0%, #4fd94c 0%, #44bad1 94%);
+  }
+}
+/*# sourceMappingURL=style.css.map */

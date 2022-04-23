@@ -1,0 +1,229 @@
+// navbar start
+.navBar {
+  z-index: 3;
+  height: 70px;
+
+  .container-navBar {
+    position: fixed;
+    height: 100px;
+    background-color: white;
+    .button-for-nav {
+      border-radius: 20px;
+      background: rgb(105, 191, 218);
+      background: linear-gradient(
+        90deg,
+        rgba(105, 191, 218, 1) 0%,
+        rgba(79, 217, 76, 1) 0%,
+        rgba(68, 186, 209, 1) 94%
+      );
+    }
+  }
+}
+// end of nav bar
+// start of header
+header {
+  height: 645px;
+  .container {
+    height: 617px;
+    .row {
+      height: 723px;
+      .leftSide-para {
+        margin-top: 200px;
+        height: 300px;
+        .button-for-left-para {
+          border-radius: 20px;
+          background: rgb(105, 191, 218);
+          background: linear-gradient(
+            90deg,
+            rgba(105, 191, 218, 1) 0%,
+            rgba(79, 217, 76, 1) 0%,
+            rgba(68, 186, 209, 1) 94%
+          );
+        }
+      }
+      .rightSide-para {
+        height: 700px;
+        .backImage {
+          z-index: 1;
+          position: absolute;
+        }
+        .fourPhones {
+          z-index: 2;
+          position: relative;
+          bottom: 700px;
+        }
+      }
+    }
+  }
+}
+// end of header
+// start of main
+main {
+  background-color: hsl(0, 0%, 98%);
+  div.four_easybank_cards {
+    gap: 5px;
+    margin-top: 50px;
+    height: 250px;
+  }
+  .articles_title {
+    height: 115px;
+    height: 115px;
+    margin-top: 90px;
+  }
+  .container-fluid {
+    .row {
+      height: 500px;
+      div.four_images-unit {
+        width: 300px;
+      }
+    }
+  }
+}
+// end of main
+// start of footer
+footer {
+  div.footer_container {
+    background-color: hsl(233, 26%, 24%);
+    height: 300px;
+    .row {
+      height: 300px;
+      .logo_footer {
+        height: 100px;
+      }
+      p {
+        color: whitesmoke;
+      }
+      .button_footer {
+        height: 100px;
+        text-align: start;
+        button {
+          border: 0px;
+          width: 150px;
+          color: whitesmoke;
+          background: rgb(105, 191, 218);
+          background: linear-gradient(
+            90deg,
+            rgba(105, 191, 218, 1) 0%,
+            rgba(79, 217, 76, 1) 0%,
+            rgba(68, 186, 209, 1) 94%
+          );
+        }
+      }
+    }
+  }
+}
+// end of footer
+// end of scss
+
+// media query section
+@media screen and(max-width:414px) {
+  header {
+    height: 900px;
+    .container {
+      .upper_para {
+        width: 380px;
+        position: relative;
+        right: 6px;
+        img {
+          &:nth-child(1) {
+            position: absolute;
+            width: 413px;
+            right: -17px;
+          }
+          &:nth-child(2) {
+            height: 434px;
+            width: 380px;
+            position: relative;
+          }
+        }
+      }
+      .bottom_para {
+        text-align: center;
+        .bottom-phone-para {
+          button.button-for-left-phone-para {
+            border-radius: 20px;
+            background: rgb(105, 191, 218);
+            background: linear-gradient(
+              90deg,
+              rgba(105, 191, 218, 1) 0%,
+              rgba(79, 217, 76, 1) 0%,
+              rgba(68, 186, 209, 1) 94%
+            );
+          }
+        }
+      }
+    }
+  }
+  // start main
+  main {
+    height: 3200px;
+    .why_choose_title {
+      text-align: center;
+      p {
+        margin-left: 25px;
+      }
+    }
+    div.four_easybank_cards {
+      height: 1260px;
+      text-align: center;
+      .cards_unit {
+        height: 300px;
+      }
+    }
+    .articles_title {
+      height: 115px;
+    }
+
+    .container_items_section_one {
+      height: 1530px !important;
+      .container__items_section_two {
+        height: 1530px;
+      }
+    }
+  }
+  // start of footer
+  footer {
+    height: 700px;
+    div.footer_container {
+      height: 700px;
+      div.row {
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        .logo_footer {
+          height: 120px;
+          .footer_icons {
+            width: 150px;
+          }
+        }
+        .about_footer {
+          display: flex;
+          flex-direction: column;
+          height: 120px;
+        }
+        .careers_footer {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          height: 120px;
+        }
+        .button_footer {
+          display: flex;
+          flex-direction: column;
+          width: 270px;
+          align-items: center;
+          button {
+            background: rgb(105, 191, 218);
+            background: linear-gradient(
+              90deg,
+              rgba(105, 191, 218, 1) 0%,
+              rgba(79, 217, 76, 1) 0%,
+              rgba(68, 186, 209, 1) 94%
+            );
+          }
+        }
+      }
+    }
+  }
+}
+// end of media query
