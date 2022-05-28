@@ -1,0 +1,32 @@
+body {
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(55%, rgba(9, 121, 115, 0.380011)), to(#00d4ff));
+  background: linear-gradient(90deg, #020024 0%, rgba(9, 121, 115, 0.380011) 55%, #00d4ff 100%);
+}
+
+body .top-box {
+  font-size: 20px;
+  height: 600px;
+}
+
+body .top-box h2 {
+  color: #303434;
+}
+
+body .top-box input {
+  background: rgba(247, 247, 247, 0.391);
+  outline: none;
+}
+
+body .top-box #btn-add:hover {
+  color: aliceblue;
+}
+
+body .top-box #btn-clear {
+  color: white;
+}
+
+body .top-box #btn-clear:hover {
+  color: rgba(240, 250, 255, 0.454);
+}
+/*# sourceMappingURL=style.css.map */

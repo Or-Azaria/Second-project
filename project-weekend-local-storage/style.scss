@@ -1,0 +1,29 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 115, 0.38001137955182074) 55%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  .top-box {
+    font-size: 20px;
+    height: 600px;
+    h2 {
+     color: rgb(48, 52, 52);
+    }
+    input {
+      background: rgba(247, 247, 247, 0.391);
+      outline: none;
+    }
+    #btn-add:hover {
+      color: aliceblue;
+    }
+    #btn-clear {
+      color: white;
+    }
+    #btn-clear:hover {
+      color: rgba(240, 250, 255, 0.454);
+    }
+  }
+}
